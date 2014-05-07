@@ -1,0 +1,242 @@
+[C-Mendozas-Computer:~/desktop/tstcase/invss] cmendoza% plisaXYZ
+ ENTER THE NAME OF THE INPUT FILE
+LISAOUT.DAT
+ ARE YOU DOING A HINGED FAULT, 1=YES 0=NO
+0
+ ENTER NMECH; 1 or 2
+1
+ ENTER THE NUMBER OF TIME SLICES
+1
+ ENTER FAULT LENGTH AND FAULT WIDTH IN KM
+200 100
+ HOW MANY SUBFAULTS ALONG THE LENGTH AND DOWN THE DIP
+20 10
+ ENTER DIST (km) OF ORIGIN FROM LEFT & TOP EDGES
+50. 50.
+ HOW MANY CM DISLOCATION PER UNIT WEIGHT FROM LISA
+3.47011368e-6
+ ENTER THE RIDIGITY*10**11 FOR EACH SUBFAULT DOWN
+ THE DIP.
+3.00763
+3.00763
+3.78528
+3.78528
+3.78528
+3.78528
+3.78528
+3.78528
+3.78528
+3.78528
+ DO YOU WANT PLOT FILES OF THE CUMULATIVE
+ SUM OF THE SLIPS IN EACH TIME WINDOW ( = 1 ), OR 
+ PLOT FILES OF THE SLIP IN EACH SEPARATE TIME WINDOW ( = 2 )
+1
+ DO YOU WANT SLIPS PLOTTED AS A FUNCTION OF MAX VALUE
+ IN EACH PLOT ( = 1 ), OR DO YOU WANT TO PLOT SLIP RELATIVE
+ TO A GIVEN VALUE ( = 2 )
+1
+  Subfault: 1 Displacement:  43.3694801
+  Subfault: 2 Displacement:  18.0765152
+  Subfault: 3 Displacement:  9.62991238
+  Subfault: 4 Displacement:  1.67648125
+  Subfault: 5 Displacement:  1.02656376
+  Subfault: 6 Displacement:  9.47826862
+  Subfault: 7 Displacement:  16.2085533
+  Subfault: 8 Displacement:  0.
+  Subfault: 9 Displacement:  7.97293282
+  Subfault: 10 Displacement:  66.0570831
+  Subfault: 11 Displacement:  31.0842361
+  Subfault: 12 Displacement:  21.5355244
+  Subfault: 13 Displacement:  10.6799688
+  Subfault: 14 Displacement:  11.8605013
+  Subfault: 15 Displacement:  14.8729067
+  Subfault: 16 Displacement:  15.6335554
+  Subfault: 17 Displacement:  10.1580639
+  Subfault: 18 Displacement:  15.5225124
+  Subfault: 19 Displacement:  7.14322901
+  Subfault: 20 Displacement:  39.1394119
+  Subfault: 21 Displacement:  23.854948
+  Subfault: 22 Displacement:  10.4457359
+  Subfault: 23 Displacement:  9.07712269
+  Subfault: 24 Displacement:  9.97970009
+  Subfault: 25 Displacement:  11.574564
+  Subfault: 26 Displacement:  17.2527103
+  Subfault: 27 Displacement:  24.6076164
+  Subfault: 28 Displacement:  24.067667
+  Subfault: 29 Displacement:  19.915329
+  Subfault: 30 Displacement:  8.30988121
+  Subfault: 31 Displacement:  11.8310051
+  Subfault: 32 Displacement:  3.72898412
+  Subfault: 33 Displacement:  12.3053694
+  Subfault: 34 Displacement:  29.6108265
+  Subfault: 35 Displacement:  43.3590698
+  Subfault: 36 Displacement:  44.5389099
+  Subfault: 37 Displacement:  31.2331047
+  Subfault: 38 Displacement:  34.902401
+  Subfault: 39 Displacement:  27.5381279
+  Subfault: 40 Displacement:  0.
+  Subfault: 41 Displacement:  3.71128654
+  Subfault: 42 Displacement:  4.06766701
+  Subfault: 43 Displacement:  18.600502
+  Subfault: 44 Displacement:  51.9614792
+  Subfault: 45 Displacement:  83.9142838
+  Subfault: 46 Displacement:  106.917671
+  Subfault: 47 Displacement:  66.6122971
+  Subfault: 48 Displacement:  52.0447655
+  Subfault: 49 Displacement:  29.0379105
+  Subfault: 50 Displacement:  26.4488583
+  Subfault: 51 Displacement:  0.721089602
+  Subfault: 52 Displacement:  5.26555014
+  Subfault: 53 Displacement:  28.5736103
+  Subfault: 54 Displacement:  57.773922
+  Subfault: 55 Displacement:  97.4303818
+  Subfault: 56 Displacement:  115.950378
+  Subfault: 57 Displacement:  80.7530136
+  Subfault: 58 Displacement:  67.5804596
+  Subfault: 59 Displacement:  42.0438957
+  Subfault: 60 Displacement:  57.0798988
+  Subfault: 61 Displacement:  5.02437735
+  Subfault: 62 Displacement:  3.35823703
+  Subfault: 63 Displacement:  36.703392
+  Subfault: 64 Displacement:  66.4075623
+  Subfault: 65 Displacement:  58.7976036
+  Subfault: 66 Displacement:  68.1634445
+  Subfault: 67 Displacement:  65.6649628
+  Subfault: 68 Displacement:  95.0221176
+  Subfault: 69 Displacement:  59.0301018
+  Subfault: 70 Displacement:  72.3900375
+  Subfault: 71 Displacement:  33.5674515
+  Subfault: 72 Displacement:  6.38327408
+  Subfault: 73 Displacement:  30.9482079
+  Subfault: 74 Displacement:  61.4279518
+  Subfault: 75 Displacement:  84.3029404
+  Subfault: 76 Displacement:  95.8722992
+  Subfault: 77 Displacement:  101.011536
+  Subfault: 78 Displacement:  100.355682
+  Subfault: 79 Displacement:  91.291748
+  Subfault: 80 Displacement:  70.1136475
+  Subfault: 81 Displacement:  79.5419464
+  Subfault: 82 Displacement:  48.7724457
+  Subfault: 83 Displacement:  20.4233532
+  Subfault: 84 Displacement:  44.7089424
+  Subfault: 85 Displacement:  78.2684097
+  Subfault: 86 Displacement:  98.3742523
+  Subfault: 87 Displacement:  105.703133
+  Subfault: 88 Displacement:  98.8565979
+  Subfault: 89 Displacement:  112.802986
+  Subfault: 90 Displacement:  87.040863
+  Subfault: 91 Displacement:  88.6197586
+  Subfault: 92 Displacement:  91.1008911
+  Subfault: 93 Displacement:  75.3118744
+  Subfault: 94 Displacement:  58.617157
+  Subfault: 95 Displacement:  61.8651848
+  Subfault: 96 Displacement:  74.0209961
+  Subfault: 97 Displacement:  89.2200928
+  Subfault: 98 Displacement:  115.287582
+  Subfault: 99 Displacement:  105.897453
+  Subfault: 100 Displacement:  133.824936
+  Subfault: 101 Displacement:  99.64431
+  Subfault: 102 Displacement:  85.6632233
+  Subfault: 103 Displacement:  82.8940735
+  Subfault: 104 Displacement:  87.1033249
+  Subfault: 105 Displacement:  82.5505295
+  Subfault: 106 Displacement:  85.6250534
+  Subfault: 107 Displacement:  89.7753067
+  Subfault: 108 Displacement:  74.1910324
+  Subfault: 109 Displacement:  92.7491989
+  Subfault: 110 Displacement:  147.070358
+  Subfault: 111 Displacement:  104.356728
+  Subfault: 112 Displacement:  108.461868
+  Subfault: 113 Displacement:  98.6622696
+  Subfault: 114 Displacement:  91.4305496
+  Subfault: 115 Displacement:  75.5894852
+  Subfault: 116 Displacement:  65.3179474
+  Subfault: 117 Displacement:  64.0340042
+  Subfault: 118 Displacement:  91.9753647
+  Subfault: 119 Displacement:  119.580116
+  Subfault: 120 Displacement:  97.1874695
+  Subfault: 121 Displacement:  0.718487024
+  Subfault: 122 Displacement:  50.6567192
+  Subfault: 123 Displacement:  75.4645615
+  Subfault: 124 Displacement:  87.6134262
+  Subfault: 125 Displacement:  89.1055756
+  Subfault: 126 Displacement:  96.4934464
+  Subfault: 127 Displacement:  105.810707
+  Subfault: 128 Displacement:  97.0486679
+  Subfault: 129 Displacement:  68.7221298
+  Subfault: 130 Displacement:  45.8714333
+  Subfault: 131 Displacement:  0.
+  Subfault: 132 Displacement:  0.
+  Subfault: 133 Displacement:  0.708354294
+  Subfault: 134 Displacement:  30.7875423
+  Subfault: 135 Displacement:  53.3911667
+  Subfault: 136 Displacement:  61.1295204
+  Subfault: 137 Displacement:  64.3879547
+  Subfault: 138 Displacement:  66.532486
+  Subfault: 139 Displacement:  66.4353256
+  Subfault: 140 Displacement:  68.9164581
+  Subfault: 141 Displacement:  62.0456314
+  Subfault: 142 Displacement:  59.5055084
+  Subfault: 143 Displacement:  38.3169937
+  Subfault: 144 Displacement:  29.1194592
+  Subfault: 145 Displacement:  41.3880463
+  Subfault: 146 Displacement:  58.4436531
+  Subfault: 147 Displacement:  68.7013092
+  Subfault: 148 Displacement:  71.5884399
+  Subfault: 149 Displacement:  63.9368439
+  Subfault: 150 Displacement:  92.9018784
+  Subfault: 151 Displacement:  74.7566605
+  Subfault: 152 Displacement:  112.393509
+  Subfault: 153 Displacement:  116.609695
+  Subfault: 154 Displacement:  107.014832
+  Subfault: 155 Displacement:  88.8106155
+  Subfault: 156 Displacement:  74.7358398
+  Subfault: 157 Displacement:  52.7214355
+  Subfault: 158 Displacement:  33.9491615
+  Subfault: 159 Displacement:  50.0772095
+  Subfault: 160 Displacement:  76.3008575
+  Subfault: 161 Displacement:  32.2439499
+  Subfault: 162 Displacement:  90.2264252
+  Subfault: 163 Displacement:  120.253319
+  Subfault: 164 Displacement:  128.647522
+  Subfault: 165 Displacement:  98.1695099
+  Subfault: 166 Displacement:  80.4233551
+  Subfault: 167 Displacement:  87.207428
+  Subfault: 168 Displacement:  86.3884811
+  Subfault: 169 Displacement:  22.9499435
+  Subfault: 170 Displacement:  0.
+  Subfault: 171 Displacement:  0.
+  Subfault: 172 Displacement:  0.
+  Subfault: 173 Displacement:  0.
+  Subfault: 174 Displacement:  0.
+  Subfault: 175 Displacement:  0.
+  Subfault: 176 Displacement:  0.
+  Subfault: 177 Displacement:  0.
+  Subfault: 178 Displacement:  0.
+  Subfault: 179 Displacement:  0.
+  Subfault: 180 Displacement:  0.
+  Subfault: 181 Displacement:  0.
+  Subfault: 182 Displacement:  0.
+  Subfault: 183 Displacement:  0.
+  Subfault: 184 Displacement:  0.
+  Subfault: 185 Displacement:  0.
+  Subfault: 186 Displacement:  0.
+  Subfault: 187 Displacement:  0.
+  Subfault: 188 Displacement:  0.
+  Subfault: 189 Displacement:  0.
+  Subfault: 190 Displacement:  0.
+  Subfault: 191 Displacement:  321.752411
+  Subfault: 192 Displacement:  209.751022
+  Subfault: 193 Displacement:  62.5800285
+  Subfault: 194 Displacement:  0.
+  Subfault: 195 Displacement:  0.
+  Subfault: 196 Displacement:  0.
+  Subfault: 197 Displacement:  0.
+  Subfault: 198 Displacement:  0.
+  Subfault: 199 Displacement:  0.
+  Subfault: 200 Displacement:  216.375458
+ MOMENT IN EACH TIME WINDOW FOR MECH NUMBER 1 = 
+ 0.383220E+28
+ THE TOTAL MOMENT IS 0.383220E+28 DYNE-CM
+ SUBROUTINE CONTOUR IS WRITING FILE TO contr01.dat                             
+  MAX SLIP (cm):  321.752411

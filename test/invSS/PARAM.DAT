@@ -1,0 +1,5 @@
+8.0  8.3e+27		# magnitude, seismic moment
+200.  100. 10.		# fault length, fault width, subfault square dimension
+20 10			# number of subaults along strike and downdip
+2.000  28.000		# top and bottom depths of fault
+38				# number of records to invert

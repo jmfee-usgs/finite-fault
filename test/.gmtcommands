@@ -1,0 +1,5 @@
+# GMT common arguments shelf
+-Ba20g10:DIST ALONG STRIKE (km):/a10g10:DIST UPDIP (km):WeSn
+-Jx0.1
+-R-50/150/-45/60
+EOF

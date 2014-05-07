@@ -1,0 +1,44 @@
+Finite Fault Inversion Tests
+
+Invert data from 38 teleseismic stations recorded for the 1995 Colima-Jalisco EQ
+assuming a rectangular 200km by 100km fault divided into 200 10km-by-10km subfaults.
+The hypocenter is at a depth of 15km and is placed 50 km from the left edge of the fault
+and 50km from the top.
+The fault has a strike of 300 degrees, dip of 15 degrees, and rake of 90 degrees.
+A single time window is used assuming a rupture velocity of 3 km/sec.
+Two runs are included:  one that applies no linear constraints using the code LISA
+to perform the inversion, and a second run that uses LISASS code to apply
+an internally-computed spatial-smoothing and moment-minimization weight.
+The LISA results are in directory invNSM, and the LISASS results are in directory invSS
+
+STEPS:
+
+1. run CADIN to produce CADIN.DAT file  (see cadin.log file)
+
+2. compile CADLAC using the included ARSZCAD.DAT file
+Note that the pathname to the RAYS directory must be specified correctly 
+in the CADLAC subroutine RAYGUN
+
+3. run CADLAC:   cadlac < cadin.dat > outfile
+(CADLAC produces CADBIN.DAT output file in binary format)
+
+4. run TELMOD to produce TELMBIN.DAT file of synthetics (binary) file
+(see telmod.log file)
+
+5. run JULIEW to set up synthetics file (telmbin.dat) and data file (telPtpr38.dat)
+for inversion (see julieW.log file)
+
+6. run LISA to perform the inversion (see lisa.log file), or alternatively run LISASS
+(see lisaSS.log file).
+
+7. run VANGODSHJ to create postscript plot files comparing observed records
+with synthetics at all stations (see vangodshJ.log file)
+
+8. run PLISAXYZ to write out a file of fault slip (contr01.dat) that can be contoured
+using Generic Mapping Tools (GMT) routines (see plisaXYZ.log file)
+
+9. run shell script PLTSLIP.CSH to create a postscript file (grdplt.ps)
+of fault slip gridded on a rectangular fault using GMT commands.
+to run, type:  csh pltslip.csh contr01.dat
+
+
