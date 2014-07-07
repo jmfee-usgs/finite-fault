@@ -1,0 +1,38 @@
+From: Heaton, Thomas H. <heaton@caltech.edu>
+Date: Wed, May 7, 2014 at 7:15 PM
+Subject: RE: publishing of software
+To: "Hartzell, Stephen" <shartzell@usgs.gov>
+
+
+Steve,
+
+[...]
+ 
+The Cadillac code was almost entirely written when I was in the USGS.  However, there are probably some sections of the code that were inherited from Don Helmberger (he’s retiring this summer) and Chuck Langston.  These sections are so ancient and ubiquitous, that I strongly recommend just calling it USGS code. Besides any earlier parts of the code were funded by the US Air Force, or the USGS.
+ 
+Tom
+ 
+Thomas Heaton
+Prof. of Engineering Seismology
+Director of the Earthquake Engineering Research Laboratory
+California Institute of Technology
+ 
+ 
+From: Hartzell, Stephen [mailto:shartzell@usgs.gov] 
+Sent: Wednesday, May 07, 2014 10:57
+To: Heaton, Thomas H.
+Subject: publishing of software
+ 
+Hi Tom,
+
+[...]
+
+Now the real point of this email. As you know, Carlos and I are in the process
+to publishing the Cadillac code as well as other codes involved in the teleseismic
+inversion problem to a publicly accessible web site. The question came up
+about license issues. Was Cadillac solely developed while you where at the
+USGS? If so, there are no license issues. But, if you developed it while you
+were at Caltech, we need to get their approval. Can you look into this?
+Thanks for the help.
+ 
+Steve
